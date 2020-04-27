@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game Zone</title>
+	<link rel="stylesheet" type="text/css" href="resorce/fastpage.css">
+</head>
+<body onload="index1()">
+	<header>
+		<h1>GAME ZONE</h1>
+	</header>
+	<section>
+		<!-- <section>
+			<form id="welcome_note">
+				<h3>Your Name : <input type="text" name="your_name" id="input"></h3>
+				<button id="subbutton1">Submit</button>
+			</form>
+		</section> -->
+		<section>
+			<h3 id="input"><button>Enter Your name</button></h3>
+			<h3>Chose your Game</h3>
+			<ul>
+				<li><a href="ludo.html"><button>Ludo</button></a></li>
+				<li><a href="sps.html"><button>stone Paper Seasor</button></a></li>
+				<li><a href="mindreading.html"><button>Mind Reading</button></a></li>
+			</ul>	
+		</section>	
+	</section>
+	<script type="text/javascript">
+		const hi=document.getElementById('input');
+
+		//const res=document.getElementById('subbutton1');
+		//const hi1=document.getElementById("welcome_note");
+		hi.addEventListener('click',function(){
+			//var x=hi.value;
+			var x=window.prompt("Enter your Name:");
+			localStorage.setItem("user_name",x);
+			hi.innerHTML="Hi "+x+" . Welcome to game zone";
+		})
+	</script>
+</body>
+</html>

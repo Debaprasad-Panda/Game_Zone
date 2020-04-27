@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #161616;
+	color: white;
+	text-align: center;
+	font-family: serif;
+}
+h3{
+	margin: 10px;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+h4{
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+header{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	padding: 20px;
+	font-size: 75px;
+}
+#result{
+	font-size: 50px;
+	color: yellow;
+	font-family: cursive;
+}
+section{
+	margin: 30px;
+}
+.mode{
+	display: inline-block;
+	margin: 10px;
+	padding: 10px 20px;
+	background-color: #9d0339;
+	border: 2px solid brown;
+	cursor: pointer;
+}
+.game{
+	display: inline-block;
+}
+#your_game_option,#your_game_option_p{
+	cursor: pointer;
+	background-color: green;
+	border-radius: 20px;
+	margin: 20px;
+}
+.pink{
+	background-color: #f9006c;
+	padding: 15px 25px;
+	margin: 5px;
+}
+.big{
+	padding: 15px 25px;
+	margin: 5px;
+}
+.red_glow{
+	border: 3px solid #e50303;
+	box-shadow: 0 0 10px #ff0d0d;
+}
